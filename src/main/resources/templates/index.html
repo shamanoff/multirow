@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form th:action="@{/post-array}" method="post">
+
+    <input name="customers[0].name" value="Moshe" id="customers0"/>
+
+    <input name="customers[1].name" value="Vova" id="customers1"/>
+
+    <input type="submit" value="Submit"/>
+</form>
+
+
+</body>
+</html>

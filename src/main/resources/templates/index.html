@@ -8,9 +8,12 @@
 
 <form th:action="@{/post-array}" method="post">
 
-    <input name="customers[0].name" value="Moshe" id="customers0"/>
+    <input name="customers[0].name" value="Moshe" id="customers_1_name"/>
+    <input name="customers[0].age" value="18" id="customers_1_age"/>
 
-    <input name="customers[1].name" value="Vova" id="customers1"/>
+    <input name="customers[1].name" value="Vova" id="customers_2_name"/>
+    <input name="customers[1].age" value="20" id="customers_2_age"/>
+
 
     <input type="submit" value="Submit"/>
 </form>
